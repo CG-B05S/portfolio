@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    background-color: #FBF3E4;
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.list{
+    color: #145854;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 50px;
+    padding: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: end;
+    flex-flow: row wrap;
+    margin-right: 150px;
+}
+.item{
+    margin-left: 50px;
+    padding: 20px;
+    color: rgb(145, 145, 89);
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.item:hover{
+    color: yellowgreen;
+}
+
+.bg{
+    background-image: linear-gradient(#105652,#105652);
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.man{
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.hi{
+    color: rgb(199, 196, 7);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+}
+.end{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.ready{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.hire{
+    background-color: #3fece1;
+    border: none;
+    height: 35px;
+    width: 120px;
+    color: white;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.get{
+        background-color: orange;
+        border: none;
+        height: 35px;
+        width: 120px;
+        color: white;
+        border-radius: 10px;
+        margin-left: 30px;
+    }
+.man1{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    height: 360px;
+    
+}
+.bgc{
+   background-color: #FBF3E4;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.allari{
+    background-color: white;
+    margin-top: 30px;
+    border: 100px 300px tomato;
+    border-radius: 20px;
+    margin: 50px 150px;
+    width: 70%;
+    
+}
+.abi{
+    position: absolute;
+    top: 10px;
+    right: 600px;
+    color: #054946;
+    font-size: 1.8rem;
+}
+.alki{
+    top: 20px;
+    right: 600px;
+    border: 3px solid orange;
+}
+.bulki{
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    color: #054946;
+    width: 40%;
+    line-height: 1.6;
+}
+
+.jii{
+    position: absolute;
+    top: 280px;
+    left: 550px;
+}
+.hire:hover{
+    height: 40px;
+    width: 130px;
+}
+.bg2{
+    background-color: white;
+}
+.another{
+    position: relative;
+    background-color: silver;
+}
+.forting{
+    position: absolute;
+    top: 10px;
+    right: 600px;
+    color: #054946;
+    font-size: 1.8rem;
+    padding-top: 30px;
+}
+.jio{
+    top: 20px;
+    right: 600px;
+    border: 3px solid orange;
+}
+.lio{
+    padding-top: 120px;
+    margin: 0 140px;
+    border-radius: 30px;
+}
+.another2{
+    position: relative;
+    background-color: silver;
+}
+.forting2{
+    position: absolute;
+    top: 10px;
+    right: 600px;
+    color: #054946;
+    font-size: 1.8rem;
+    padding-top: 30px;
+}
+.kio{
+    top: 20px;
+    right: 600px;
+    border: 3px solid orange;
+}
+.workk{
+    position: absolute;
+    left: 80px;
+    top: 100px;
+    color: #054946;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.workkd{
+    position: absolute;
+    left: 80px;
+    top: 160px;
+    color: #054946;
+    font-size: 1.1rem;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.gut{
+    margin-left: 300px;
+}
+.workr{
+    position: absolute;
+    left: 80px;
+    top: 190px;
+    color: #054946;
+    font-size: 0.9rem;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.works{
+    position: absolute;
+    left: 80px;
+    top: 245px;
+    color: #054946;
+    font-size: 1.1rem;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.workrs{
+    position: absolute;
+    left: 80px;
+    top: 275px;
+    color: #054946;
+    font-size: 0.9rem;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.workks{
+    position: absolute;
+    left: 80px;
+    top: 320px;
+    color: #054946;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.worksr{
+    position: absolute;
+    left: 80px;
+    top: 345px;
+    color: #054946;
+    font-size: 1.1rem;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.workrs1{
+    position: absolute;
+    left: 80px;
+    top: 375px;
+    color: #054946;
+    font-size: 0.9rem;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.banna{
+    background-color: silver !important;
+    
+}
+.elli{
+    position: absolute;
+    right: 250px;
+    top: 150px;
+}
+.bulli{
+    position: absolute;
+    right: 250px;
+    top: 420px;
+}
+.santha{
+    position: relative;
+}
+.forting21{
+    position: absolute;
+    top: 450px;
+    right: 600px;
+    color: #054946;
+    font-size: 1.8rem;
+    padding-top: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 50px 150px;
+    position: relative;
+}
+.flexc{
+    background-color: white;
+    height: 599px;
+    width: 38%;
+    position: absolute;
+    top: 550px;
+}
+.flexc1{
+    background-color: #FBF3E4;
+    height: 599px;
+    width: 38%;
+    position: absolute;
+    top: 550px;
+    right: 150px;
+}
+.con{
+    color: #105652;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.red{
+    color: red;
+}
+input{
+    border: 1px solid silver;
+    height: 20px;
+    width: 230px;
+}
+button{
+    background-color: orange;
+    width: 140px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.cen{
+    margin:10px 100px;
+}
+div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+  }
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background: #555;}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 80vw;
+    display: none;
+  }
+  ul li ul li { 
+    background: #555; 
+    display: block; 
+  }
+  ul li ul li a {display:block !important;} 
+  ul li ul li:hover {background: #666;}
+.menu2{
+    position: absolute;
+    top: 0;
+    right: 40%;
+    visibility: hidden;
+}
+.material-icons{
+    color: #105652;
+    }
+.buss{
+    height: 40px;
+    width: 180px;
+}
+@media (max-width: 900px) {
+    .bg{
+        width: 100vw;
+        height: 198vh;
+        position: relative;
+    }
+    .man1{
+        position: absolute;
+        top:28%;
+        left: 25%;
+    }
+    .container{
+        visibility: hidden;
+    }
+    .menu2{
+        visibility: visible;
+        right: 35%;
+    }
+    }
+    @media (min-width:450px) and (max-width:640px){
+        .menu2{
+            visibility: visible;
+            right: 19%;
+        }
+    }
+    @media (min-width:640px) and (max-width:700px){
+        .menu2{
+            visibility: visible;
+            right: 28%;
+        }
+    }
+    @media (max-width: 412px) {
+        .man1{
+            position: absolute;
+            top:35%;
+            left: 25%;
+        }
+        .container{
+            visibility: hidden;
+        }
+        .menu2{
+            visibility: visible;
+            right: 10%;
+        }
+        }
